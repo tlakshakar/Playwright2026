@@ -12,8 +12,19 @@ class LoginPage {
         this.signInBtn = page.locator('button[id="loginBtn"]');
     }
 
-    // Reusable Login Method
-    async login(username, password) {
+    /**
+     * options = {} (Default Parameters)
+     * This sets a default value of an empty object ({}) for the options parameter.
+     */
+    async login(username, password, options = {}) {
+        if (options.application === 'client') {
+            await this.page.goto('https://rahulshettyacademy.com/client');
+            await this.page.locator('#userEmail').fill(username);
+            await this.page.locator('#userPassword').fill(password);
+            await this.page.locator("[value='Login']").click();
+            await this.page.waitForLoadState('networkidle');
+            return;
+        }
 
         await this.page.goto('https://na1.test.nice-incontact.com/login/');
 
