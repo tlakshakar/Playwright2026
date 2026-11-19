@@ -1,0 +1,11 @@
+Employee ID,Full Name,Department,Job Title,Hire Date,Annual Salary ($),Status
+EMP-1001,Sarah Jenkins,Engineering,Senior Software Engineer,2019-03-15,115000.0,Active
+EMP-1002,Michael Chen,Marketing,Marketing Manager,2020-07-22,88000.0,Active
+EMP-1003,Priya Patel,Finance,Financial Analyst,2021-11-01,79000.0,Active
+EMP-1004,David Kim,Engineering,DevOps Specialist,2018-01-10,122000.0,Active
+EMP-1005,Emma Watson,Human Resources,HR Generalist,2022-04-18,65000.0,On Leave
+EMP-1006,Carlos Rodriguez,Sales,Account Executive,2020-09-05,94000.0,Active
+EMP-1007,Jessica Taylor,Product,Product Manager,2017-06-12,130000.0,Active
+EMP-1008,James Wilson,Customer Support,Support Lead,2023-02-01,58000.0,Active
+EMP-1009,Anita Desai,Finance,Senior Accountant,2016-08-29,96000.0,Active
+EMP-1010,Robert Martinez,Sales,Sales Representative,2022-10-14,62000.0,Active
