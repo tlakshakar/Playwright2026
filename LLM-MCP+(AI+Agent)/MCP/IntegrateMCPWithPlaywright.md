@@ -15,6 +15,8 @@
 
 Once Playwright MCP is connected in VS Code, GitHub Copilot Chat uses its built-in browser automation capabilities. Copilot controls the browser via structured accessibility snapshots—navigating pages, clicking buttons, filling forms, and reading DOM elements—to scan user flows and output ready-to-run Playwright tests.
 
+# How?
+
 ## Phase 1: Scan & Explore Application Flows
 
 Start your application locally or open your target web app URL, then prompt GitHub Copilot in Agent Mode (or standard Copilot Chat).
